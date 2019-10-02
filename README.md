@@ -1,4 +1,4 @@
-# Typesaurus Once
+# Firebase Once
 
 Firebase Functions call triggers more than once [which confuses people](https://github.com/firebase/firebase-functions/issues/62)
 and causes bugs in apps.
@@ -6,7 +6,7 @@ and causes bugs in apps.
 If you use Functions and Firestore triggers and not aware about
 the idepotency issue, you might have bugs without knowing it.
 
-Typesaurus Once solves the problem by using claim documents in Firestore.
+Firebase Once solves the problem by using claim documents in Firestore.
 It creates claims in transactions which ensures that the callback function
 is called only once.
 
@@ -24,13 +24,13 @@ See [issue in Firebase SDK for Cloud Functions](https://github.com/firebase/fire
 
 ## Installation
 
-The library is available as an [npm package](https://www.npmjs.com/package/@typesaurus/once).
+The library is available as an [npm package](https://www.npmjs.com/package/firebase-once).
 To install the package run:
 
 ```sh
-npm install @typesaurus/once --save
+npm install firebase-once --save
 # or with yarn
-yarn add @typesaurus/once
+yarn add firebase-once
 ```
 
 ## License

@@ -1,12 +1,12 @@
 {
-  "name": "@typesaurus/once",
+  "name": "firebase-once",
   "version": "0.1.0",
   "main": "index.js",
   "author": "Sasha Koss <koss@nocorp.me>",
   "license": "MIT",
   "dependencies": {
     "firebase-functions": "^3.2.0",
-    "typesaurus": "^1.1.0"
+    "typesaurus": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
