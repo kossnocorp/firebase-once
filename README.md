@@ -4,7 +4,7 @@ Firebase Functions call triggers more than once [which confuses people](https://
 and causes bugs in apps.
 
 If you use Functions and Firestore triggers and not aware about
-the idepotency issue, you might have bugs without knowing it.
+the idempotency issue, you might have bugs without knowing it.
 
 Firebase Once solves the problem by using claim documents in Firestore.
 It creates claims in transactions which ensures that the callback function
